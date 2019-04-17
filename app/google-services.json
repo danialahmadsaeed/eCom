@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "361978048027",
+    "firebase_url": "https://ecom-78566.firebaseio.com",
+    "project_id": "ecom-78566",
+    "storage_bucket": "ecom-78566.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361978048027:android:55695e905995372c",
+        "android_client_info": {
+          "package_name": "com.example.dania.ecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361978048027-v47gj92u2jk9dmmbf94c07uhkob819c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dania.ecom",
+            "certificate_hash": "b8da63f49fc533d2fec201ea769f251493b5bc55"
+          }
+        },
+        {
+          "client_id": "361978048027-6rbvtsk8attdui4q02359tk8s9conkgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaWt66Y_3ydCILY7-D9_qGagLH2EDLS7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361978048027-6rbvtsk8attdui4q02359tk8s9conkgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

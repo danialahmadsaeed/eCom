@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_logIn"
+            android:icon="@drawable/ic_login"
+            android:title="Sign in" />
+        <!--<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+    </group>
+
+    <item android:title="Upload">
+        <menu>
+            <item
+                android:id="@+id/nav_additem"
+                android:icon="@drawable/ic_additems"
+                android:title="Add item" />
+            <item
+                android:id="@+id/nav_work"
+                android:icon="@drawable/ic_work_profile"
+                android:title="Work Profile" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/nav_exit"
+        android:layout_gravity="end"
+        android:icon="@drawable/ic_login"
+        android:title="Exit" />
+
+
+</menu>
